@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "318401293349",
+    "project_id": "zalobk-eb54f",
+    "storage_bucket": "zalobk-eb54f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318401293349:android:830a4d47c62e32590623cc",
+        "android_client_info": {
+          "package_name": "com.example.zalobk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318401293349-mp30s98vkkcgj3j41mhkajcmkek024f9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA53eWkK8bRrnEDDMJ2lMww8dYfNFvVn-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318401293349-mp30s98vkkcgj3j41mhkajcmkek024f9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
