@@ -74,9 +74,9 @@ public class setProfile extends AppCompatActivity {
                 if(name.isEmpty()){
                     Toast.makeText(getApplicationContext(), "Name is Empty", Toast.LENGTH_SHORT).show();
                 }
-                else if(imagepath == null){
-                    Toast.makeText(getApplicationContext(), "Image is Empty", Toast.LENGTH_SHORT).show();
-                }
+//                else if(imagepath == null){
+//                    Toast.makeText(getApplicationContext(), "Image is Empty", Toast.LENGTH_SHORT).show();
+//                }
                 else{
                     profileBinding.mProgressbarofsetProfile.setVisibility(View.VISIBLE);
                     sendDataForNewUser();

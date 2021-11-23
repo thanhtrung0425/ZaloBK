@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String number;
-                number = binding.mgetNumberPhone.getText().toString();
+                number = binding.mgetNumberPhone.getText().toString().trim();
                 if(number.isEmpty()){
                     Toast.makeText(getApplicationContext(), "Please Enter Your Number", Toast.LENGTH_SHORT).show();
                 }
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else{
                      binding.mrPogressBarOfMain.setVisibility(View.VISIBLE);
-                     mPhoneNumber = mCountryCode + number;
+                     mPhoneNumber = mCountryCode.trim() + number;
 
                     PhoneAuthOptions options = PhoneAuthOptions.newBuilder(firebaseAuth)
                             .setPhoneNumber(mPhoneNumber)
@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onVerificationFailed(@NonNull FirebaseException e) {
-
+                Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_LONG).show();
             }
 
             @Override
