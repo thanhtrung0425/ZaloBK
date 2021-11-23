@@ -3,11 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/messagebackground.xml" value="0.3359375" />
+        <entry key="app/src/main/res/drawable/recievermessage.xml" value="0.3359375" />
+        <entry key="app/src/main/res/drawable/sendmessage.xml" value="0.3359375" />
         <entry key="app/src/main/res/layout/activity_chat.xml" value="0.3115942028985507" />
+        <entry key="app/src/main/res/layout/activity_chat_view.xml" value="0.27717391304347827" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.4" />
         <entry key="app/src/main/res/layout/activity_otpauthentication.xml" value="0.3115942028985507" />
         <entry key="app/src/main/res/layout/activity_set_profile.xml" value="0.3115942028985507" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.264" />
+        <entry key="app/src/main/res/layout/chatfragment.xml" value="0.27717391304347827" />
+        <entry key="app/src/main/res/layout/chatviewlayout.xml" value="0.27717391304347827" />
+        <entry key="app/src/main/res/layout/profilefragment.xml" value="0.27717391304347827" />
+        <entry key="app/src/main/res/layout/recievermessagelayout.xml" value="0.27717391304347827" />
+        <entry key="app/src/main/res/layout/sendmessagelayout.xml" value="0.27717391304347827" />
+        <entry key="app/src/main/res/layout/statusfragment.xml" value="0.27717391304347827" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.315625" />
       </map>
     </option>
   </component>
